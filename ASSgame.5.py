@@ -95,7 +95,7 @@ def game_loop():
     car1 = CARS(3, 330)
     car2 = CARS(2, 180)
     car3 = CARS(1, 480)
-    car4 = CARS(4, 20)
+    car4 = CARS(4, 27)
     car_list = [car1, car2, car3, car4]
 
     pygame.display.update()
@@ -173,8 +173,8 @@ def game_loop():
             game_over = True
 
         # Displays score/highscore
-        message(f"Highscore: {highscore}", WHITE, BLUE, 70, 20)
-        message(f"Score: {score}", WHITE, BLUE, 40, 40)
+        message(f"Highscore: {highscore}", WHITE, BLUE, 70, 11)
+        message(f"Score: {score}", WHITE, BLUE, 555, 11)
         pygame.display.update()
 
 # Creates menu for game before you start playing
